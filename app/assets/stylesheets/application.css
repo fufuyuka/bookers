@@ -14,16 +14,29 @@ body {
   margin: 33px;
 }
 
-.h1 {
+h1 {
   display: block;
-  font-size: 26px;
   margin: 18px;
+}
+
+h2 {
+  display: block;
 }
 
 p {
   display: block;
   font-size: 13px;
   margin: 33px;
+}
+
+th {
+   font-family: verdana, arial, helvetica, sans-serif;
+   padding: 1px 1px 5px;
+}
+
+td {
+  margin: 33px;
+  padding: 1px 5px 7px;
 }
 
 /*
