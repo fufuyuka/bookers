@@ -11,7 +11,9 @@
   <%= f.text_area :body %>
 
   <%= f.submit 'Update Books' %>
+
 <% end %>
 
-<%= link_to "Show", edit_book_path(@list.id) %><p>|</p>
-<%= link_to "Back", books_path(@list.id), method: :delete, "data-confirm" => "本当に削除しますか？" %>
+<%= link_to "Show", book_path(@list.id) %>
+<p>|</p>
+<%= link_to "Back", books_path, method: :delete, "data-confirm" => "本当に削除しますか？" %>
