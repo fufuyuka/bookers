@@ -43,10 +43,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-thead {
-  width: fit-conten;
-}
-
 th {
   padding: 1px 1px 5px;
 }
@@ -57,4 +53,12 @@ td {
 
 #notice {
   color: green;
+}
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+input[type="submit" i] {
+  padding: 1px 6px;
 }
